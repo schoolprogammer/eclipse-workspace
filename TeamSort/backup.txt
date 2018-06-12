@@ -1,0 +1,59 @@
+=== [gen7ou] First team ===
+
+Garchomp @ Rocky Helmet  
+Ability: Rough Skin  
+EVs: 252 HP / 4 Atk / 252 Def  
+Impish Nature  
+- Earthquake  
+- Dragon Tail  
+- Toxic  
+- Stealth Rock  
+
+Mew @ Lum Berry  
+Ability: Synchronize  
+EVs: 4 HP / 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Psychic  
+- Dark Pulse  
+- Nasty Plot  
+- Thunderbolt  
+
+Blacephalon @ Choice Specs  
+Ability: Beast Boost  
+EVs: 252 SpA / 252 Spe  
+Timid Nature  
+IVs: 0 Atk  
+- Flamethrower  
+- Shadow Ball  
+- Trick  
+- Hidden Power [Ice]  
+
+Chansey @ Eviolite  
+Ability: Natural Cure  
+EVs: 252 HP / 252 Def / 4 SpD  
+Bold Nature  
+IVs: 0 Atk  
+- Toxic  
+- Soft-Boiled  
+- Protect  
+- Seismic Toss  
+
+Bisharp @ Focus Sash  
+Ability: Defiant  
+EVs: 252 Atk / 252 Spe  
+Adamant Nature  
+- Iron Head  
+- Sucker Punch  
+- Swords Dance  
+- Knock Off  
+
+Lopunny-Mega @ Lopunnite  
+Ability: Scrappy  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+- Fake Out  
+- Power-Up Punch  
+- High Jump Kick  
+- Return  
+
+

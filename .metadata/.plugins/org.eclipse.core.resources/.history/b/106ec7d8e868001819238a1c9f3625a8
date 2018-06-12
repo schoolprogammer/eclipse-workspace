@@ -1,0 +1,19 @@
+package time;
+
+public class timeer {
+	public static int timer = 300;
+	
+	
+	public static void main(String[]args) {
+			int temp;
+			
+			for(int i = -10; i <= timer; i++) {
+			timer--;
+
+			System.out.println(timer);	
+
+				
+			}
+		
+	}
+}

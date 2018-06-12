@@ -1,0 +1,26 @@
+package time;
+
+public class timeer {
+	public static int timer = 300;
+	
+	
+	public static void main(String[]args) {
+			int temp;
+			
+			for(int i = 0; i <= timer; i++) {
+			timer--;
+
+			System.out.println(temp);	
+
+			try {
+				Thread.sleep(100);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+			
+		
+			
+			}
+		
+	}
+}

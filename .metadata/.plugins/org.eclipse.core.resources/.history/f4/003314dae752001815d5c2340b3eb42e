@@ -1,0 +1,25 @@
+package mazegame;
+import javax.swing.*;
+import java.awt.*;
+
+public class mazegame2 {
+	public static void InitGUI() {
+		JFrame frame = new JFrame("Maze game");
+		JLabel[][] lbl = new JLabel[9][9];
+		frame.setBounds(350,200,1000,500);
+		frame.setLayout(new GridLayout(9,9));
+		for(int row = 0; row < lbl.length; row++) {
+			for(int col = 0; row < lbl[row].length; col++) {
+				lbl[row][col].setBackground(Color.WHITE);
+				frame.add(lbl[row][col]);
+			}
+		}
+		frame.setVisible(true);
+	}
+	
+	public static void main(String[] args) {
+		InitGUI();
+		
+	}
+}
+

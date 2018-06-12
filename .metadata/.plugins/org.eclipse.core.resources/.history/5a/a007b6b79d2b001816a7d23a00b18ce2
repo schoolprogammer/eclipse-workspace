@@ -1,0 +1,32 @@
+package graphical;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.*;
+
+public class GraphicalUserInterface {
+	public static void main(String[] args) {
+		JFrame frameMain = new JFrame("main");
+		frameMain.setVisible(true);
+
+		frameMain.setSize(1900, 1000);
+		frameMain.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		JPanel panelMain = new JPanel();
+		panelMain.setLayout(null);
+		frameMain.add(panelMain);
+
+		JButton button1 = new JButton("A");
+		panelMain.add(button1);
+		button1.addActionListener(new ActionA());
+
+		button1.setBounds(50, 50, 80, 80);
+	}
+
+	static class ActionA implements ActionListener {
+
+		public void actionPerformed(ActionEvent e) {
+			JOptionPane.showMessageDialog(null, "Hi");
+		}
+	}
+}

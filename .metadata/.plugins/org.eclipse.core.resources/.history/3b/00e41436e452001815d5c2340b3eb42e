@@ -1,0 +1,15 @@
+package mazegame;
+import javax.swing.*;
+
+public class mazegame2 {
+	public void InitGUI() {
+		JFrame frame = new JFrame("Maze game");
+		frame,setBounds(350,350,1000,500);
+		frame.setVisible(true);
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+}
+
