@@ -1,0 +1,24 @@
+package reactiontime;
+
+import java.util.*;
+import javax.swing.*;
+
+public class Main {
+	JFrame frame = new JFrame("React time");
+	JLabel label;
+	JPanel panel = new JPanel();
+	public Main() {		
+		frame.setBounds(500,200,500,500);
+		frame.setVisible(true);
+		label = new JLabel("<html><p>Hairy<br />Penis</p></html>");
+		panel.add(label);
+		frame.add(panel);
+	}
+	
+	
+	
+	public static void main(String[]args) {
+		new Main();
+		
+	}
+}

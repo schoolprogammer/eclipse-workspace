@@ -1,0 +1,17 @@
+package reactiontime;
+
+import java.util.*;
+import javax.swing.*;
+
+public class Main {
+	
+	public Main() {
+		JFrame frame = new JFrame("React time");
+		frame.setBounds(350,350,500,500);
+		frame.setVisible(true);
+	}
+
+	public static void main(String[]args) {
+		new Main();
+	}
+}

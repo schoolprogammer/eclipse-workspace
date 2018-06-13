@@ -1,0 +1,32 @@
+package reactiontime;
+
+import java.util.*;
+import javax.swing.*;
+
+public class Main {
+	JFrame frame = new JFrame("React time");
+	JLabel lbl;
+	JPanel panel = new JPanel();
+	public Main() {		
+		frame.setBounds(500,200,500,500);
+		
+		panel.setLayout(null);
+		frame.add(panel);
+		
+		lbl = new JLabel("<html>Instructions<br>__________");
+		lbl.setBounds(200,100,100,100);
+		panel.add(lbl);
+		
+
+		frame.setResizable(false);
+		frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		frame.setVisible(true);
+	}
+	
+	
+	
+	public static void main(String[]args) {
+		new Main();
+		
+	}
+}

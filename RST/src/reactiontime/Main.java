@@ -1,14 +1,48 @@
 package reactiontime;
 
-import java.util.Random;
+import java.util.*;
+import javax.swing.*;
 
 public class Main {
+	JFrame frame = new JFrame("React time");
+	JLabel instruction;
+	JLabel title;
+	JPanel panel = new JPanel();
+	JButton start = new JButton();
 
-	public static void main(String[]args) {
-		long _millis1, _millis2;
-		int randTime;
-		Random rn = new Random();
+	
+	public Main() {		
+		frame.setBounds(500,200,500,500);
 		
+		panel.setLayout(null);
+		frame.add(panel);
+		
+		instruction = new JLabel();
+		instruction.setText("<html>Instructions<br>___________<br>1. Press start<br><br>"
+				+ "2. A button will appear after a random amount of time. Click it as fast as you can"
+				+ "<br><br>3. Replay the test nine more times to get accurate results");
+		instruction.setBounds(100,100,250,250);
+		panel.add(instruction);
+		
+		ImageIcon img = new ImageIcon("C:\\Users\\s422787\\eclipse-workspace\\RST\\src\\Title.jpg");
+		title = new JLabel();
+		title.setBounds(50,10,500,100);
+		title.setIcon(img);
+		panel.add(title);
+		
+		start.setText("Play");
+		start.setBounds(100, 350, 100,50);
+		panel.add(start);
+		
+		frame.setResizable(false);
+		frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		frame.setVisible(true);
+	}
+	
+	
+	
+	public static void main(String[]args) {
+		new Main();
 		
 	}
 }

@@ -1,0 +1,33 @@
+package reactiontime;
+
+import java.util.*;
+import javax.swing.*;
+import java.awt.*;
+public class Main {
+	JFrame frame = new JFrame("React time");
+	JLabel lbl;
+	JPanel panel = new JPanel();
+	public Main() {		
+		frame.setBounds(500,200,500,500);
+		
+		panel.setBackground(Color.black);
+		panel.setLayout(null);
+		frame.add(panel);
+		
+		lbl = new JLabel("ans");
+		lbl.setBounds(300,300,100,100);
+		panel.add(lbl);
+		
+
+		frame.setResizable(false);
+		frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		frame.setVisible(true);
+	}
+	
+	
+	
+	public static void main(String[]args) {
+		new Main();
+		
+	}
+}
